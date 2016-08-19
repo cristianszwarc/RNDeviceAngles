@@ -1,0 +1,34 @@
+{
+  "name": "RNDeviceAngles",
+  "version": "0.0.1",
+  "description": "Get rotation information (pitch, yaw, roll) - ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Szwarc",
+  "license": "MIT",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "CMMotionManager",
+    "MotionManager",
+    "Gyroscope",
+    "yaw",
+    "pitch",
+    "row",
+    "rotation",
+    "angles"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com:....git"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react-native": "^0.31.0"
+  }
+}
