@@ -30,7 +30,7 @@ class anglesExample extends Component {
   }
 
   componentDidMount() {
-    DeviceEventEmitter.addListener('DeviceAnglesData', function (data) {
+    DeviceEventEmitter.addListener('AnglesData', function (data) {
       this.setState({
         pitch: data.pitch.toFixed(5),
         roll: data.roll.toFixed(5),
