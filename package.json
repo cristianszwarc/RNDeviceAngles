@@ -1,5 +1,5 @@
 {
-  "name": "RNDeviceAngles",
+  "name": "react-native-device-angles",
   "version": "0.0.1",
   "description": "Get rotation information (pitch, yaw, roll) - ios",
   "main": "index.js",
@@ -30,5 +30,8 @@
   },
   "devDependencies": {
     "react-native": "^0.31.0"
+  },
+  "dependencies": {
+    "react-native-button": "^1.6.0"
   }
 }
