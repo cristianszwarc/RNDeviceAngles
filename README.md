@@ -2,9 +2,14 @@
 Get rotation information (pitch, yaw, roll) - ios
 
 #use
+
+react-native init myProject
+
+cd myProject
+
 npm install react-native-device-angles --save
 
-open the xcode project from your react-native application
+open the xcode project from your react-native application (myProject/ios/myProject.xcode)
 
 right click on Libraries then "add files" then select node_modules/react-native-device-angles/RNDeviceAngles.xcode
 
