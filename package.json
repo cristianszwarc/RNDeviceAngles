@@ -1,7 +1,7 @@
 {
   "name": "react-native-device-angles",
-  "version": "0.0.1",
-  "description": "Get rotation information (pitch, yaw, roll) - ios",
+  "version": "0.0.2",
+  "description": "Wrapper to get rotation information (pitch, yaw, roll angles) using the gyroscope (MotionManager ios)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
