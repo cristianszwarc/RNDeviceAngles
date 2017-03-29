@@ -1,6 +1,6 @@
 {
   "name": "react-native-device-angles",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Wrapper to get rotation information (pitch, yaw, roll angles) using the gyroscope (MotionManager ios)",
   "main": "index.js",
   "scripts": {
