@@ -34,6 +34,9 @@ DeviceEventEmitter.addListener('AnglesData', function (data) {
 ...
 ```
 
+**Log**
+0.1.0 updated import statement by srt0422
+
 **ToDo**
 improve this readme
 
