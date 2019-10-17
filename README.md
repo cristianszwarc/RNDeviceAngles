@@ -1,26 +1,32 @@
-React Native - Device Angles
+# React Native - Device Angles
+
 -------------------------------
 Get rotation information (pitch, yaw, roll) - ios
 
-**use**
-```
-react-native init myProject
 
-cd myProject
+## Getting started
 
-npm install react-native-device-angles --save
-```
-**configure**
-open the xcode project from your react-native application ```myProject/ios/myProject.xcode```
+`$ npm install react-native-device-angles --save`
 
-right click on Libraries then "add files" then select ```myProject/node_modules/react-native-device-angles/RNDeviceAngles.xcode```
+### Mostly automatic installation ( react-native < 0.60 )
 
-click on your xCode project, then select the build phases tab and inside Link Binary With Libraries add libRNDeviceAngles.a to the list
+`$ react-native link react-native-device-angles`
 
-**code**
-```
+### Manual installation
+
+
+#### iOS
+
+1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
+2. Go to `node_modules` ➜ `react-native-device-angles` and add `DeviceAngles.xcodeproj`
+3. In XCode, in the project navigator, select your project. Add `libDeviceAngles.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+4. Run your project (`Cmd+R`)<
+
+
+## Usage
+```javascript
 import { DeviceEventEmitter } from 'react-native';
-import { DeviceAngles } from 'NativeModules';
+import DeviceAngles from 'react-native-device-angles';
 
 DeviceAngles.setDeviceMotionUpdateInterval(0.1);
 ...
@@ -31,11 +37,11 @@ DeviceEventEmitter.addListener('AnglesData', function (data) {
   console.log(data.roll);
   console.log(data.yaw);
 });
-...
 ```
 
 **Log**
 0.1.0 updated import statement by srt0422
+0.1.2 Support for react-native 0.60+
 
 **ToDo**
 improve this readme
