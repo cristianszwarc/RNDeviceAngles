@@ -8,6 +8,10 @@ Get rotation information (pitch, yaw, roll) - ios
 
 `$ npm install react-native-device-angles --save`
 
+or 
+
+`$ yarn add react-native-device-angles`
+
 ### Mostly automatic installation ( react-native < 0.60 )
 
 `$ react-native link react-native-device-angles`
