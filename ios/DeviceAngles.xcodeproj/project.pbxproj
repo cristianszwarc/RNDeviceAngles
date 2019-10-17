@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C198F0C1D67CE010048393D /* DeviceAngles.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C198F0B1D67CE010048393D /* DeviceAngles.h */; };
-		3C198F0E1D67CE010048393D /* DeviceAngles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C198F0D1D67CE010048393D /* DeviceAngles.m */; };
+		B3E7B58A1CC2AC0600A0062D /* DeviceAngles.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* DeviceAngles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3C198F061D67CE010048393D /* CopyFiles */ = {
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				3C198F0C1D67CE010048393D /* DeviceAngles.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C198F081D67CE010048393D /* libRNDeviceAngles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDeviceAngles.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C198F0B1D67CE010048393D /* DeviceAngles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceAngles.h; sourceTree = "<group>"; };
-		3C198F0D1D67CE010048393D /* DeviceAngles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceAngles.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libDeviceAngles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeviceAngles.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5881CC2AC0600A0062D /* DeviceAngles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceAngles.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* DeviceAngles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceAngles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C198F051D67CE010048393D /* Frameworks */ = {
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,115 +39,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C198EFF1D67CE010048393D = {
+		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C198F0A1D67CE010048393D /* RNDeviceAngles */,
-				3C198F091D67CE010048393D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		3C198F091D67CE010048393D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3C198F081D67CE010048393D /* libRNDeviceAngles.a */,
+				134814201AA4EA6300B7C361 /* libDeviceAngles.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C198F0A1D67CE010048393D /* RNDeviceAngles */ = {
+		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				3C198F0B1D67CE010048393D /* DeviceAngles.h */,
-				3C198F0D1D67CE010048393D /* DeviceAngles.m */,
+				B3E7B5881CC2AC0600A0062D /* DeviceAngles.h */,
+				B3E7B5891CC2AC0600A0062D /* DeviceAngles.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
 			);
-			path = RNDeviceAngles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C198F071D67CE010048393D /* RNDeviceAngles */ = {
+		58B511DA1A9E6C8500147676 /* DeviceAngles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C198F111D67CE010048393D /* Build configuration list for PBXNativeTarget "RNDeviceAngles" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "DeviceAngles" */;
 			buildPhases = (
-				3C198F041D67CE010048393D /* Sources */,
-				3C198F051D67CE010048393D /* Frameworks */,
-				3C198F061D67CE010048393D /* CopyFiles */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RNDeviceAngles;
-			productName = RNDeviceAngles;
-			productReference = 3C198F081D67CE010048393D /* libRNDeviceAngles.a */;
+			name = DeviceAngles;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libDeviceAngles.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3C198F001D67CE010048393D /* Project object */ = {
+		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Cristian Szwarc";
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					3C198F071D67CE010048393D = {
-						CreatedOnToolsVersion = 7.3.1;
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 3C198F031D67CE010048393D /* Build configuration list for PBXProject "RNDeviceAngles" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "DeviceAngles" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3C198EFF1D67CE010048393D;
-			productRefGroup = 3C198F091D67CE010048393D /* Products */;
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C198F071D67CE010048393D /* RNDeviceAngles */,
+				58B511DA1A9E6C8500147676 /* DeviceAngles */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C198F041D67CE010048393D /* Sources */ = {
+		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C198F0E1D67CE010048393D /* DeviceAngles.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* DeviceAngles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3C198F0F1D67CE010048393D /* Debug */ = {
+		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -160,40 +155,46 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		3C198F101D67CE010048393D /* Release */ = {
+		58B511EE1A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -204,39 +205,41 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3C198F121D67CE010048393D /* Debug */ = {
+		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
+				"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../react-native/React/**",
-					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DeviceAngles;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		3C198F131D67CE010048393D /* Release */ = {
+		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../react-native/React/**",
-					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DeviceAngles;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -244,24 +247,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C198F031D67CE010048393D /* Build configuration list for PBXProject "RNDeviceAngles" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "DeviceAngles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C198F0F1D67CE010048393D /* Debug */,
-				3C198F101D67CE010048393D /* Release */,
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C198F111D67CE010048393D /* Build configuration list for PBXNativeTarget "RNDeviceAngles" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "DeviceAngles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C198F121D67CE010048393D /* Debug */,
-				3C198F131D67CE010048393D /* Release */,
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3C198F001D67CE010048393D /* Project object */;
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
 }

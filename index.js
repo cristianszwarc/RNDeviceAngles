@@ -1,3 +1,5 @@
-var { DeviceAngles } = require('react-native').NativeModules;
+import { NativeModules } from 'react-native';
 
-module.exports = { DeviceAngles };
+const { DeviceAngles } = NativeModules;
+
+export default DeviceAngles;

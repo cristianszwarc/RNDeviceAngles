@@ -3,7 +3,6 @@
 //  DeviceAngles
 //
 //  Created by Cristian Szwarc on 20/08/16.
-//
 
 #import <React/RCTBridge.h>
 #import "RCTEventDispatcher.h"

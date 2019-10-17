@@ -1,13 +1,17 @@
 {
   "name": "react-native-device-angles",
-  "version": "0.1.1",
+  "title": "React Native Device Angles",
+  "version": "0.1.2",
   "description": "Wrapper to get rotation information (pitch, yaw, roll angles) using the gyroscope (MotionManager ios)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Cristian Szwarc",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristianszwarc/RNDeviceAngles",
+    "baseUrl": "https://github.com/cristianszwarc/RNDeviceAngles"
+  },
   "keywords": [
     "react-component",
     "react-native",
@@ -21,14 +25,18 @@
     "rotation",
     "angles"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cristianszwarc/RNDeviceAngles"
+  "author": {
+    "name": "Cristian Szwarc"
   },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
   "peerDependencies": {
-    "react-native": "*"
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
   },
   "devDependencies": {
-    "react-native": "^0.31.0"
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
   }
 }
